@@ -1,4 +1,5 @@
 /* Estilos gerais */
+
 body {
     font-family: monospace;
     margin: 0;
@@ -16,6 +17,7 @@ button {
 }
 
 /* Cabeçalho e navegação */
+
 .Cabecalho {
     background-color: #04994a8d;
     padding: 15px 0;
@@ -89,11 +91,8 @@ button {
 .Cursos {
     display: flex;
     justify-content: center;
-    /* Espaçamento igual entre os itens */
     flex-wrap: wrap;
-    /* Permite a quebra de linha se necessário */
     list-style-type: none;
-    /* Remove os marcadores de lista */
     padding: 0;
 }
 
@@ -163,6 +162,7 @@ button {
 }
 
 /* Perguntas Frequentes */
+
 .Perguntas {
     padding: 20px;
 }
@@ -172,6 +172,7 @@ button {
 }
 
 /* Parceiros */
+
 .Parceiros {
     text-align: center;
     padding: 20px;
@@ -186,7 +187,8 @@ button {
     display: flex;
 }
 
-/* Rodapé */
+/* Footer */
+
 footer {
     background-color: #333;
     color: white;
@@ -199,50 +201,34 @@ footer {
 
 button {
     background-color: #146439ef;
-    /* Cor de fundo azul */
     color: white;
-    /* Cor da fonte */
     padding: 10px 15px;
-    /* Espaçamento interno */
     border: none;
-    /* Remove a borda */
     border-radius: 5px;
-    /* Borda arredondada */
     font-weight: bold;
-    /* Fonte em negrito */
     text-transform: uppercase;
-    /* Texto em maiúsculas */
     transition: background-color 0.3s, transform 0.2s;
-    /* Transição suave para hover e click */
     outline: none;
-    /* Remove o contorno ao focar */
     margin-top: 20px;
 }
 
 button:hover,
 button:focus {
     background-color: #0056b3;
-    /* Cor de fundo mais escura ao passar o mouse e focar */
     transform: translateY(-2px);
-    /* Efeito de "levantar" ao passar o mouse */
 }
 
 button:active {
     background-color: #004494;
-    /* Cor de fundo ainda mais escura ao clicar */
     transform: translateY(1px);
-    /* Efeito de "pressionar" ao clicar */
 }
 
-/* Estilização específica para botões de subscrição e login */
-.subscribe,
+.cadastro,
 .login {
     margin: 5px;
-    /* Espaçamento externo */
 }
 
-.teste {
-
+.ContainerInformacoes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
