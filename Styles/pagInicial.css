@@ -62,10 +62,8 @@ button {
 .Logo {
     display: flex;
     gap: 45px;
-    align-content: center;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -185,6 +183,7 @@ button {
 
 .Parceiros_logos {
     display: flex;
+    align-items: center;
 }
 
 /* Footer */
@@ -194,7 +193,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
     bottom: 0;
     width: 100%;
 }
