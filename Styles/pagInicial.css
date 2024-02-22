@@ -1,0 +1,251 @@
+/* Estilos gerais */
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Cabeçalho e navegação */
+.Cabecalho {
+    background-color: #04994a8d;
+    padding: 15px 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Cabecalho__logo {
+    width: 102px;
+    margin-left: 61px;
+}
+
+.Cabecalho__acessos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.Controle_Usuario button {
+    FONT-FAMILY: system-ui;
+    background-color: #146439ef;
+    color: white;
+    border: none;
+    padding: 15px 36px;
+    margin: 0 10px;
+    border-radius: 23px;
+}
+
+.Controle_Usuario button:hover {
+    background-color: #005cbf;
+}
+
+/* Seção de apresentação */
+.Apresetacao {
+    text-align: center;
+    padding: 20px;
+}
+
+.Logo {
+    display: flex;
+    gap: 45px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Logo img {
+    max-width: 280px;
+    margin-bottom: 20px;
+}
+
+.Titulo h1,
+.Titulo h2,
+.Titulo h3 {
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.titulo_principal {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Seção de cursos */
+
+.Cursos {
+    display: flex;
+    justify-content: center;
+    /* Espaçamento igual entre os itens */
+    flex-wrap: wrap;
+    /* Permite a quebra de linha se necessário */
+    list-style-type: none;
+    /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.Curso {
+    background-color: #e6e6e6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ContainerVideo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Video {
+    background: #dfdfdf;
+    padding: 32px;
+    border-radius: 25px;
+}
+
+.divisor {
+    width: 80%;
+    height: 2px;
+    background: #00000042;
+    border-radius: 97px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+/* Seção dos professores */
+.Professor {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.Professor div {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Professor img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/* Novos professores */
+.Novos_professores {
+    background-color: #d9d9d9;
+    padding: 20px;
+    text-align: center;
+}
+
+.Professor_info {
+    width: 100%;
+}
+
+.Professor_info p {
+    width: 80%;
+}
+
+/* Perguntas Frequentes */
+.Perguntas {
+    padding: 20px;
+}
+
+.Pergunta {
+    font-weight: bold;
+}
+
+/* Parceiros */
+.Parceiros {
+    text-align: center;
+    padding: 20px;
+}
+
+.Parceiros img {
+    margin: 10px;
+    max-width: 100px;
+}
+
+.Parceiros_logos {
+    display: flex;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #146439ef;
+    /* Cor de fundo azul */
+    color: white;
+    /* Cor da fonte */
+    padding: 10px 15px;
+    /* Espaçamento interno */
+    border: none;
+    /* Remove a borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    font-weight: bold;
+    /* Fonte em negrito */
+    text-transform: uppercase;
+    /* Texto em maiúsculas */
+    transition: background-color 0.3s, transform 0.2s;
+    /* Transição suave para hover e click */
+    outline: none;
+    /* Remove o contorno ao focar */
+    margin-top: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: #0056b3;
+    /* Cor de fundo mais escura ao passar o mouse e focar */
+    transform: translateY(-2px);
+    /* Efeito de "levantar" ao passar o mouse */
+}
+
+button:active {
+    background-color: #004494;
+    /* Cor de fundo ainda mais escura ao clicar */
+    transform: translateY(1px);
+    /* Efeito de "pressionar" ao clicar */
+}
+
+/* Estilização específica para botões de subscrição e login */
+.subscribe,
+.login {
+    margin: 5px;
+    /* Espaçamento externo */
+}
+
+.teste {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
